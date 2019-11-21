@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Luna";
+}
+header{
+    background-image: url(../img/fin.jpg);
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+header h1 { 
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    font-size: 50px;
+}
+.intro{
+    width: 80%;
+    height: 270px;
+    color:black;
+    margin: auto;
+    text-align: center;
+}
+.intro h1{
+    font-family: Merriweather; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.intro p{
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.video{
+    width: all;
+    height: 350px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.pie{
+    width: all;
+    background: black;
+    height: 180px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top:10px;
+    
+}
+
+.colage{
+    width: all;
+    height: auto;
+    background: #232321;
+    padding: none;
+    margin: 0;
+}
+.texto-boot{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-left:10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size:120%
+}
+.col-lg-3{
+    padding-left:0 !important;
+}
+body::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

@@ -1,0 +1,72 @@
+
+.header-sitio {
+    background-color: #232321;
+    padding:0 20px;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width:768px) {
+    .header-sitio {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.header-sitio h1 {
+    color:white;
+}
+nav {
+    align-self: center;
+}
+.regreso,nav a {
+    color: white; 
+    font-family: 'IBM Plex Serif', serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 16px;
+}
+nav a:hover,.regreso:hover{
+    text-decoration: none;
+    color:#f90; 
+}
+.top{
+    width:all;
+    margin:auto;
+    height:auto;
+    color:white;
+    background: #232321;
+    padding:5px;
+    padding-top: 10px;
+    font-family: "Francois One"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.central{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    line-height : 33px;
+}
+.central,.imaginemos,.container p{
+    font-size: 120%;
+}
+.imaginemos{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    line-height : 33px;
+}
+.row{
+    width: 80%;
+}
+.pie{
+    width: all;
+    background: black;
+    height: 180px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top:10px;
+    
+}
